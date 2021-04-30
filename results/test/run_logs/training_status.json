@@ -1,0 +1,29 @@
+{
+    "PostureTest": {
+        "checkpoints": [
+            {
+                "steps": 499800,
+                "file_path": "results\\test\\PostureTest\\PostureTest-499800.onnx",
+                "reward": 40.00000762939453,
+                "creation_time": 1619408202.6902194
+            },
+            {
+                "steps": 844800,
+                "file_path": "results\\test\\PostureTest\\PostureTest-844800.onnx",
+                "reward": 39.989578564961754,
+                "creation_time": 1619409618.0218062
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 844800,
+            "file_path": "results\\test\\PostureTest.onnx",
+            "reward": 39.989578564961754,
+            "creation_time": 1619409618.0218062
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.1",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1619226963",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "H:\\UnityProjects\\RoboAgent\\venv\\Scripts\\mlagents-learn --torch-device cuda",
+        "mlagents_version": "0.25.1",
+        "mlagents_envs_version": "0.25.1",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1619226975"
+    },
+    "total": 12.2896415,
+    "count": 1,
+    "self": 0.003542299999999443,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1328229999999999,
+            "count": 1,
+            "self": 0.1328229999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 12.1532762,
+            "count": 1,
+            "self": 0.0011358000000001311,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.1518717,
+                    "count": 1,
+                    "self": 12.1518717
+                },
+                "trainer_threads": {
+                    "total": 1.1000000004202093e-06,
+                    "count": 1,
+                    "self": 1.1000000004202093e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00026760000000081163,
+                    "count": 1,
+                    "self": 0.00026760000000081163
+                }
+            }
+        }
+    }
+}
